@@ -1,0 +1,52 @@
+.navbar-comp{
+    background-color: #121212;
+    width: 6rem;
+    height: 98vh;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-wrapper{
+    font-size: 1.5rem;
+}
+
+.buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sidebar-btn{
+    background-color: transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+
+.sidebar-btn:hover{
+    border:1px solid #b300ff;
+}
+
+.avatar-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.avatar-wrapper div{
+    background-color: #b300ff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
